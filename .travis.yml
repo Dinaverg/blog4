@@ -1,4 +1,11 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: 8ea56daf-110b-4871-a294-02bcc2777cb4
+  app: qualified-appeal-15895
+  on:
+    repo: Dinaverg/blog4
 services:
 - mongodb
